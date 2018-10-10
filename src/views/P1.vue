@@ -1,5 +1,9 @@
 <template lang="pug">
   div.slides
-    section slide 1
-    section slide 2
+    section(
+      data-markdown="md/p1.md"
+      data-separator="\n---$"
+      data-separator-vertical="\n>>>$"
+      data-separator-notes="^Note:"
+    )
 </template>

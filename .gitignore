@@ -1,3 +1,5 @@
+/public/reveal
+
 .DS_Store
 node_modules
 /dist
