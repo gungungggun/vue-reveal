@@ -5,7 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "prepare": "mkdir -p public/reveal && cp -r node_modules/reveal.js/plugin public/reveal/plugin && cp -r node_modules/reveal.js/js/reveal.js public/reveal/reveal.js && cp -r node_modules/reveal.js/lib/js/head.min.js public/reveal/head.min.js"
+    "prepare": "mkdir -p public/reveal && cp -r node_modules/reveal.js/plugin public/reveal/plugin && cp -r node_modules/reveal.js/lib/js/head.min.js public/reveal/head.min.js"
   },
   "dependencies": {
     "reveal.js": "^3.7.0",

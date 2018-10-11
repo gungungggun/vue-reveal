@@ -6,14 +6,17 @@
 
 <script lang="coffee">
 import Reveal from 'reveal.js/js/reveal'
+window.Reveal = Reveal
+
 export default
   mounted: () ->
     Reveal.initialize({
       history: true
+      showNotes: true
       dependencies: [
         { src: 'reveal/plugin/markdown/marked.js' }
         { src: 'reveal/plugin/markdown/markdown.js' }
-        { src: 'reveal/plugin/notes/notes.js', async: true }
+        { src: 'reveal/plugin/notes/notes.js' }
         { src: 'reveal/plugin/highlight/highlight.js', async: true, callback: () -> hljs.initHighlightingOnLoad() }
       ]
     })
