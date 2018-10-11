@@ -8,8 +8,10 @@
     "prepare": "mkdir -p public/reveal && cp -r node_modules/reveal.js/plugin public/reveal/plugin && cp -r node_modules/reveal.js/lib/js/head.min.js public/reveal/head.min.js"
   },
   "dependencies": {
+    "chart.js": "^2.7.2",
     "reveal.js": "^3.7.0",
     "vue": "^2.5.17",
+    "vue-chartjs": "^3.4.0",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
   },
