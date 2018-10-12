@@ -14,10 +14,10 @@ export default
       history: true
       showNotes: true
       dependencies: [
-        { src: 'reveal/plugin/markdown/marked.js' }
-        { src: 'reveal/plugin/markdown/markdown.js' }
-        { src: 'reveal/plugin/notes/notes.js' }
-        { src: 'reveal/plugin/highlight/highlight.js', async: true, callback: () -> hljs.initHighlightingOnLoad() }
+        { src: '/reveal/plugin/markdown/marked.js' }
+        { src: '/reveal/plugin/markdown/markdown.js' }
+        { src: '/reveal/plugin/notes/notes.js' }
+        { src: '/reveal/plugin/highlight/highlight.js', async: true, callback: () -> hljs.initHighlightingOnLoad() }
       ]
     })
 </script>
@@ -34,4 +34,12 @@ export default
   -moz-osx-font-smoothing grayscale
   width 100vw
   height 100vh
+  .reveal
+    ul, ol
+      li
+        line-height 1.5
+    img
+      border none
+      box-shadow none
+
 </style>
