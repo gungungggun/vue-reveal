@@ -1,7 +1,11 @@
 <template lang="pug">
   div.slides
-    section slide 3
-    section slide 4
+    section(
+      data-markdown="/md/p2.md"
+      data-separator="\n---$"
+      data-separator-vertical="\n>>>$"
+      data-separator-notes="^Note:"
+    )
 </template>
 
 <script lang="coffee">
